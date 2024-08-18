@@ -1,0 +1,26 @@
+.social-media {
+  display: flex;
+  gap: 8px;
+}
+
+.social-media-icon {
+  fill: var(--primary-green);
+  transition: fill var(--time) var(--cubic);
+}
+
+.social-media-icon:hover,
+.social-media-icon:focus {
+  fill: var(--header-menu-link-hover);
+}
+
+.menu-container .social-media-icon,
+.footer-container .social-media-icon {
+  fill: var(--primary-white);
+}
+
+.menu-container .social-media-icon:hover,
+.footer-container .social-media-icon:hover,
+.menu-container .social-media-icon:focus,
+.footer-container .social-media-icon:focus {
+  fill: var(--backdrop-hover-social-link);
+}
