@@ -1,13 +1,11 @@
 {
-  "name": "yachts
-",
+  "name": "yachts",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/yachts
-/",
+    "build": "vite build --base=/yachts/",
     "preview": "vite preview"
   },
   "devDependencies": {
